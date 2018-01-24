@@ -69,10 +69,16 @@ wyswietl na ekranie w formacie "dloguosc boku wynosi: .... cm"
 "Pole kwadratu wynosi .... cm2"*/
 
 
-var bok = prompt("Dlugosc boku wynosi .... cm")
+/*var bok = prompt("Dlugosc boku wynosi .... cm")
 var pole = bok * bok;
 document.write("Dlugosc boku wynosi: " + bok + "cm<br>");
-document.write("Pole kwadratu wynosi " + pole + "cm<sup>2</sup>");\
+document.write("Pole kwadratu wynosi " + pole + "cm<sup>2</sup>");*/
 
 //zad.dom
 //napisz program obliczjacy pole trojkata
+
+
+var bok1 = prompt("Dlugosc podstawy trojkata wynosi: .... cm")
+var wysokosc = prompt("Wysokosc trojkata wynosi .... cm")
+var pole2 = bok1 * wysokosc * 0.5;
+document.write("Pole trojkata wynosi " + pole2 + "cm<sup>2</sup>")
