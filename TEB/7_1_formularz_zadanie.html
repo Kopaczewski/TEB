@@ -1,0 +1,35 @@
+<!DOCTYPe html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+    <form>
+        <input type="number" id="x" autofocus>x<br><br>
+
+
+    </form>
+    <button id="przycisk" >Pole</button>
+    <div id="wynik"></div>
+
+
+    <script>
+        var bok, tekst, pole;
+        var x = document.getElementById("x");
+        var przycisk = document.getElementById("przycisk");
+        var wynik = document.getElementById("wynik");
+        przycisk.onclick = function(){
+        bok = x.value;
+        pole = bok * bok;
+        tekst = "Pole kwadratu wynosi: ";
+        tekst += '<span style="color:red">' + pole + "cm<sup>2</sup></span>";
+        wynik.innerHTML = tekst;
+       }
+    </script>
+
+</body>
+</html>
