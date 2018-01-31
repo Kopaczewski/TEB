@@ -1,0 +1,17 @@
+body {
+    width: 800px;
+
+}
+.pochylony {
+    font-style: italic;
+}
+
+#menu {
+    float: left;
+    width: 300px;
+}
+
+#tresc {
+    float: left;
+    width: 500px;
+}
